@@ -119,7 +119,7 @@ export async function GET() {
           session: {
             ...newSession,
             players: 0,
-            timeLeft: 1800, // 30 minutes
+            timeLeft: 10, // 30 minutes
           },
           message: "New session started - previous session ended",
         });

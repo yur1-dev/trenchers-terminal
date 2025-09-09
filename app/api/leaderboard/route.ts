@@ -205,7 +205,7 @@ export async function POST(request: NextRequest) {
       console.log("🧪 Creating test data...");
 
       // Get or create test session
-      let { data: existingSession } = await supabase
+      const { data: existingSession } = await supabase
         .from("game_sessions")
         .select("id")
         .eq("status", "active")
