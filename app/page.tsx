@@ -1841,10 +1841,10 @@ const TerminalArtillery: React.FC = () => {
           <div className="text-center space-y-8 max-w-4xl w-full">
             <div className="relative inline-block">
               <h1
-                className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 tracking-wider font-mono text-white"
+                className="text-4xl md:text-6xl lg:text-6xl font-black mt-6 tracking-wider font-mono text-white"
                 style={{ textShadow: "0 0 20px #ffffff" }}
               >
-                &gt; TERMINAL_ARTILLERY.EXE
+                &gt;TRENCHERS_TERMINAL.EXE
               </h1>
             </div>
             <p className="text-lg md:text-xl font-mono mb-8 tracking-wide text-gray-300">
